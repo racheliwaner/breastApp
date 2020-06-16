@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/breastApp/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/breastApp/static/js/main.2933c249.chunk.js",
+    "main.js.map": "/breastApp/static/js/main.2933c249.chunk.js.map",
+    "runtime-main.js": "/breastApp/static/js/runtime-main.cfc6b875.js",
+    "runtime-main.js.map": "/breastApp/static/js/runtime-main.cfc6b875.js.map",
+    "static/js/2.43229570.chunk.js": "/breastApp/static/js/2.43229570.chunk.js",
+    "static/js/2.43229570.chunk.js.map": "/breastApp/static/js/2.43229570.chunk.js.map",
+    "index.html": "/breastApp/index.html",
+    "precache-manifest.6f0b310a4b9e9f2e18a976d258fdb184.js": "/breastApp/precache-manifest.6f0b310a4b9e9f2e18a976d258fdb184.js",
+    "service-worker.js": "/breastApp/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/breastApp/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.43229570.chunk.js.LICENSE.txt": "/breastApp/static/js/2.43229570.chunk.js.LICENSE.txt",
+    "static/media/IMG1.jpg": "/breastApp/static/media/IMG1.d966e200.jpg",
+    "static/media/IMG4.jpg": "/breastApp/static/media/IMG4.20d4d512.jpg",
+    "static/media/IMG5.jpg": "/breastApp/static/media/IMG5.0bbaa9b8.jpg",
+    "static/media/IMG6.jpg": "/breastApp/static/media/IMG6.c9bf0462.jpg",
+    "static/media/img10.jpg": "/breastApp/static/media/img10.625d1d78.jpg",
+    "static/media/img11.jpg": "/breastApp/static/media/img11.c8fdcc4c.jpg",
+    "static/media/img12.jpg": "/breastApp/static/media/img12.635f1948.jpg",
+    "static/media/img13.jpg": "/breastApp/static/media/img13.033caada.jpg",
+    "static/media/img14.jpg": "/breastApp/static/media/img14.b36f0d85.jpg",
+    "static/media/img15.jpg": "/breastApp/static/media/img15.10265d85.jpg",
+    "static/media/img16.jpg": "/breastApp/static/media/img16.90e7a2b6.jpg",
+    "static/media/img7.jpg": "/breastApp/static/media/img7.acf73843.jpg",
+    "static/media/img8.jpg": "/breastApp/static/media/img8.06c094c1.jpg",
+    "static/media/img9.jpg": "/breastApp/static/media/img9.03386b6f.jpg",
+    "static/media/logo.svg": "/breastApp/static/media/logo.5d5d9eef.svg",
+    "static/media/main_pic.jpg": "/breastApp/static/media/main_pic.331ec5ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfc6b875.js",
+    "static/js/2.43229570.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.2933c249.chunk.js"
+  ]
+}
