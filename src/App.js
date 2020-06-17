@@ -13,6 +13,7 @@ class App extends Component{
     super()
     this.onClickForward = this.onClickForward.bind(this)
     this.onClickBack = this.onClickBack.bind(this)
+    //this.cases = this.cases.bind(this)
   
     const IMG1 = require('C:/Users/DELL/breastApp/src/IMG5.jpg');
     const IMG2 = require('C:/Users/DELL/breastApp/src/IMG6.jpg');
@@ -30,42 +31,54 @@ class App extends Component{
     const img16 = require('C:/Users/DELL/breastApp/src/img16.jpg');
      
     this.state = { index: 0, imgList:[IMG1,IMG2,IMG3,IMG4,img7,
-                   img8,img9,img10,img11,img12,img13,img14, img15, img16], string: 'אישה בת 52 שהגיעה לבדיקת סקר, כתבו שהממוגרפיה רקמה סמיכה ולכן המליצו על אולטרסאונד באולולטרסאונד מצאתי גוש בכל שד '}
+                   img8,img9,img10,img15, img16, img14], string: 'זוהי ממוגרפיה של אישה בת 52 שהגיעה לבדיקת סקר, הרדיולוגים פענחו שרקמה סמיכה והמליצו על אולטרסאונד '}
     }
    
     onClickForward() {
     if(this.state.index + 1 === this.state.imgList.length) {
       this.setState({index: this.state.index});
-      this.setState({string:'אישה שהגיעה לבדיקה ומצאו ממצאים שפירים'})
+      this.setState({string:'והשאירו קליפ'});
     } else {
-      this.setState({index: this.state.index + 1})
-      if (this.state.index >= 0 && this.state.index <= 2)
-      this.setState({string:'אישה בת 52 שהגיעה לבדיקת סקר, כתבו שהממוגרפיה רקמה סמיכה ולכן המליצו על אולטרסאונד באולולטרסאונד מצאתי גוש בכל שד '});
-      if (this.state.index >= 3 && this.state.index <= 13)
-      this.setState({string:'אישה שהגיעה לבדיקה ומצאו ממצאים שפירים'})
+      this.setState({index: this.state.index + 1});
+      this.cases();
     }
   }
   
   onClickBack(){
     if (this.state.index - 1 === -1){
       this.setState({index: 0});
-      this.setState({string:'אישה בת 52 שהגיעה לבדיקת סקר, כתבו שהממוגרפיה רקמה סמיכה ולכן המליצו על אולטרסאונד באולולטרסאונד מצאתי גוש בכל שד '});
     } else {
-        this.setState({index:this.state.index - 1});
-        if (this.state.index >= 0 && this.state.index <= 4)
-        this.setState({string:'אישה בת 52 שהגיעה לבדיקת סקר, כתבו שהממוגרפיה רקמה סמיכה ולכן המליצו על אולטרסאונד באולולטרסאונד מצאתי גוש בכל שד '});
-        if (this.state.index >= 5 && this.state.index <= 13)
-        this.setState({string:'אישה שהגיעה לבדיקה ומצאו ממצאים שפירים'})
+      this.setState({index:(this.state.index - 1)});
+      this.cases();
       }
   }
   
+  cases() {
+    if (this.state.index === 0)
+    this.setState({string:'זוהי ממוגרפיה של אישה בת 52 שהגיעה לבדיקת סקר, הרדיולוגים פענחו שרקמה סמיכה והמליצו על אולטרסאונד '});
+    else if (this.state.index === 1)
+    this.setState({string:'באולטרסאונד מצאתי גוש בשד ימין'});
+    else if (this.state.index === 2)
+    this.setState({string:'ובשד שמאל'});
+    else if (this.state.index === 3 || this.state.index === 4)
+    this.setState({string:'אישה שהגיעה לבדיקת מעקב, בממוגרפיה רואים כל מיני ממצאים שפירים '});
+    else if (this.state.index === 5)
+    this.setState({string:'ממצא בשד ימין שעשו לו ביופסיה בעבר והוא שפיר'});
+    else if (this.state.index === 6)
+    this.setState({string:'ועוד כמה ממצאים שפירים'}); 
+    else if (this.state.index === 7)
+    this.setState({string:'ממצא בשד שמאל שלא רואים בממוגרפיה'});
+    else if (this.state.index === 8)
+    this.setState({string:'עשו לו ביופסיה'});
+    else if (this.state.index === 9)
+    this.setState({string:'והשאירו קליפ'});
+  }
   render() {
     const mystyle = {color: "black",fontSize: 60,paddingBottom: 0, paddingTop: 20, display: "flex",
                      justifyContent: "center", alignItems: "center", fontFamily: "Shuneet"};
-    //const button = { marginRight: '20%',borderRadius: 20, height: 300, width: 300 };
-  
+
     return (
-      <div className="App" style={{backgroundImage: `url(${Background})` }}>   
+      <div className="App" style={{backgroundImage: `url(${Background})`,width: "100%" }}>   
       <header><link href='http://serve.fontsproject.com/css?family=Shuneet:400'
   rel='stylesheet' type='text/css'/></header>
         <p style={mystyle}>מקרים חשודים- דימות השד</p>
@@ -74,12 +87,10 @@ class App extends Component{
           <BorderWrapper style={{marginLeft: '10%', width: 500}}>{this.state.string} </BorderWrapper>
         </div>
         <div>
-       
-          <Button  style={{marginLeft: '-52%'}} onClick={this.onClickBack} variant="outline-light" size="lg" >back</Button>{' '}
-          <Button onClick={this.onClickForward} variant="outline-light" size="lg">forward</Button>
-          
+          <Button  style={{marginLeft: '0%'}} onClick={this.onClickBack} variant="outline-light" size="lg" >back</Button>{' '}
+          <Button onClick={this.onClickForward} variant="outline-light" size="lg">forward</Button>   
         </div>   
-       
+          <p>{this.state.index}</p>
       </div>  
     );
   };
