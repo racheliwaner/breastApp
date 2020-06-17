@@ -9,20 +9,15 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; 
   }
 }
 
 .App{
-  background-image: url(C:/Users/DELL/breast/src/main_pic.jpg);
+height: '100%';
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  /*flex-direction: column;
-  align-items: center;
-  justify-content: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
