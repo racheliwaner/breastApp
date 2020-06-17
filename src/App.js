@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 //import ReactDOM from 'react-dom';
-//import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BorderWrapper from 'react-border-wrapper'
 import Background from 'C:/Users/DELL/breastApp/src/main_page2.jpg'; 
     
 class App extends Component{
@@ -60,7 +62,7 @@ class App extends Component{
   render() {
     const mystyle = {color: "black",fontSize: 60,paddingBottom: 0, paddingTop: 20, display: "flex",
                      justifyContent: "center", alignItems: "center", fontFamily: "Shuneet"};
-    const button = { marginRight: '20%',borderRadius: 20, height: 300, width: 300 };
+    //const button = { marginRight: '20%',borderRadius: 20, height: 300, width: 300 };
   
     return (
       <div className="App" style={{backgroundImage: `url(${Background})` }}>   
@@ -68,13 +70,15 @@ class App extends Component{
   rel='stylesheet' type='text/css'/></header>
         <p style={mystyle}>מקרים חשודים- דימות השד</p>
         <div style={{display: "flex" }}>
-          <img style={{marginLeft: '17%',borderRadius: 8, height: 400, width: 400}} src={this.state.imgList[this.state.index]} alt="" /><br />
-          <p style={{marginLeft: '15%'}}>{this.state.string} </p>
+          <img style={{marginLeft: '13%',borderRadius: 8, height: 400, width: 400}} src={this.state.imgList[this.state.index]} alt="" /><br />
+          <BorderWrapper style={{marginLeft: '10%', width: 500}}>{this.state.string} </BorderWrapper>
         </div>
         <div>
-          <button style={{marginLeft: '-58%'}} onClick={this.onClickBack} >back</button>
-          <button onClick={this.onClickForward}>forward</button>
-        </div>
+       
+          <Button  style={{marginLeft: '-52%'}} onClick={this.onClickBack} variant="outline-light" size="lg" >back</Button>{' '}
+          <Button onClick={this.onClickForward} variant="outline-light" size="lg">forward</Button>
+          
+        </div>   
        
       </div>  
     );
