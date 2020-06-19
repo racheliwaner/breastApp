@@ -2,9 +2,21 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, 'KeterYG','Shuneet';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @font-face {
+    font-family: Shuneet;
+    src: url("C:/Users/DELL/breastApp/src/shuneet-v30-designer-set/shuneet3-bold.otf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+ @font-face {
+  font-family: KeterYG;
+  src: url("C:/Users/DELL/breastApp/src/KeterYG/SFD/KeterYG-BoldOblique.sfd") format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
 }
 
 code {

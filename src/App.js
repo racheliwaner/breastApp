@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 //import logo from './logo.svg';
 import './App.css';
-//import ReactDOM from 'react-dom';
+import './index.css';
+import ReactImageZoom from 'react-image-zoom';
+import ReactDOM from 'react-dom';
 import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BorderWrapper from 'react-border-wrapper'
@@ -22,9 +24,12 @@ class App extends Component{
     const img8 = require('C:/Users/DELL/breastApp/src/img8.jpg');
     const img9 = require('C:/Users/DELL/breastApp/src/img9.jpg');
     const img10 = require('C:/Users/DELL/breastApp/src/img10.jpg');
-    const img11 = require('C:/Users/DELL/breastApp/src/img11.jpg');
-    const img12 = require('C:/Users/DELL/breastApp/src/img12.jpg');
-    const img13 = require('C:/Users/DELL/breastApp/src/img13.jpg');
+    
+   // const props = {width: 400, height: 250, zoomWidth: 500, img: this.state.index};
+//ReactDOM.render(<ReactImageZoom {...props} />, document.getElementById('react-app'));
+    //const img11 = require('C:/Users/DELL/breastApp/src/img11.jpg');
+    //const img12 = require('C:/Users/DELL/breastApp/src/img12.jpg');
+    //const img13 = require('C:/Users/DELL/breastApp/src/img13.jpg');
     const img14 = require('C:/Users/DELL/breastApp/src/img14.jpg');
     const img15 = require('C:/Users/DELL/breastApp/src/img15.jpg');
     const img16 = require('C:/Users/DELL/breastApp/src/img16.jpg');
@@ -88,21 +93,23 @@ class App extends Component{
   }
   
   render() {
-    const mystyle = {color: "black",fontSize: 60,paddingBottom: 0, paddingTop: 20, display: "flex",
+    const mystyle = {fontWeight: "bold",color: "black",fontSize: 60,paddingBottom: 0, paddingTop: 20, display: "flex",
                      justifyContent: "center", alignItems: "center", fontFamily: "Shuneet"};
 
     return (
       <div className="App" style={{backgroundImage: `url(${Background})`,width: "100%" }}>   
-      <header><link href='http://serve.fontsproject.com/css?family=Shuneet:400'
-  rel='stylesheet' type='text/css'/></header>
+      <header>
+        <link href='http://serve.fontsproject.com/css?family=Shuneet:400' rel='stylesheet' type='text/css'/>
+        <link href='http://serve.fontsproject.com/css?family=KeterYG:500'rel='stylesheet' type='text/css'/>
+     </header>
         <p style={mystyle}>מקרים חשודים- דימות השד</p>
         <div style={{display: "flex" }}>
-          <img style={{marginLeft: '13%',borderRadius: 8, height: 400, width: 400}} src={this.state.imgList[this.state.index]} alt="" /><br />
-          <BorderWrapper style={{marginLeft: '10%', width: 500}}>{this.state.string} </BorderWrapper>
+          <img style={{marginLeft: '13%',borderRadius: 8, boxShadow: '10px 10px 20px black', height: 400, width: 400}} src={this.state.imgList[this.state.index]} alt="" /><br />
+          <div style={{width: 400, marginLeft: '13%'}}><p style={{boxShadow: '10px 10px 20px black', borderStyle: "ridge", borderBlockWidth: 100, borderRadius: 8, borderColor: "black", fontSize: 35, fontFamily: "KeterYG", fontWeight: "bold"}}>{this.state.string} </p></div>
         </div>
         <div>
-          <Button  style={{marginLeft: '0%'}} onClick={this.onClickBack} variant="outline-light" size="lg" >back</Button>{' '}
-          <Button onClick={this.onClickForward} variant="outline-light" size="lg">forward</Button>   
+          <Button  style={{fontSize: 25 ,fontFamily: "KeterYG", fontWeight: "bold", width: '120px',marginLeft: '0%', marginTop: '3%', marginBottom: '4%',boxShadow: '5px 5px 20px black', height: 80}} onClick={this.onClickBack} variant="outline-dark" size="lg" >back</Button>{' '}
+          <Button style={{fontSize: 25, fontFamily: "KeterYG", fontWeight: "bold",width: '120px', height: 80, marginTop: '3%', marginBottom: '4%', boxShadow: '5px 5px 20px black'}} onClick={this.onClickForward} variant="outline-dark" size="lg">forward</Button>   
         </div>   
       </div>  
     );
