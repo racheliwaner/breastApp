@@ -99,7 +99,7 @@ class App extends Component{
         <p style={mystyle}>מקרים חשודים- דימות השד</p>
         <div style={{display: "flex" }}>
           <img style={{marginLeft: '13%',borderRadius: 8, boxShadow: '10px 10px 20px black', height: 400, width: 400}} src={this.state.imgList[this.state.index]} alt="" /><br />
-          <div style={{width: 400, marginLeft: '13%'}}><p style={{boxShadow: '10px 10px 20px black', borderStyle: "ridge", borderBlockWidth: 100, borderRadius: 8, borderColor: "black", fontSize: 35, fontFamily: "KeterYG", fontWeight: "bold",src: `url(${font1})`}}>{this.state.string} </p></div>
+          <div style={{width: 400, marginLeft: '13%'}}><p style={{boxShadow: '10px 10px 20px black', borderStyle: "ridge", borderBlockWidth: 100, borderRadius: 8, borderColor: "black", fontSize: 35, fontFamily: "KeterYG", fontWeight: "bold"}}>{this.state.string} </p></div>
         </div>
         <div>
           <Button  style={{fontSize: 25 ,fontFamily: "KeterYG", fontWeight: "bold", width: '120px',marginLeft: '0%', marginTop: '3%', marginBottom: '4%',boxShadow: '5px 5px 20px black', height: 80}} onClick={this.onClickBack} variant="outline-dark" size="lg" >back</Button>{' '}
