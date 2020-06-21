@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/breastApp/static/css/main.6389616b.chunk.css",
+    "main.css": "/breastApp/static/css/main.5a10ec9e.chunk.css",
     "main.js": "/breastApp/static/js/main.b9fd6417.chunk.js",
     "main.js.map": "/breastApp/static/js/main.b9fd6417.chunk.js.map",
     "runtime-main.js": "/breastApp/static/js/runtime-main.cfc6b875.js",
@@ -9,10 +9,10 @@
     "static/js/2.067cb17c.chunk.js": "/breastApp/static/js/2.067cb17c.chunk.js",
     "static/js/2.067cb17c.chunk.js.map": "/breastApp/static/js/2.067cb17c.chunk.js.map",
     "index.html": "/breastApp/index.html",
-    "precache-manifest.46dbce9374aeccd76bf8e0f2fcc3737d.js": "/breastApp/precache-manifest.46dbce9374aeccd76bf8e0f2fcc3737d.js",
+    "precache-manifest.b29a19824b64ccb1d4b4b6a984d33d67.js": "/breastApp/precache-manifest.b29a19824b64ccb1d4b4b6a984d33d67.js",
     "service-worker.js": "/breastApp/service-worker.js",
     "static/css/2.a10d244a.chunk.css.map": "/breastApp/static/css/2.a10d244a.chunk.css.map",
-    "static/css/main.6389616b.chunk.css.map": "/breastApp/static/css/main.6389616b.chunk.css.map",
+    "static/css/main.5a10ec9e.chunk.css.map": "/breastApp/static/css/main.5a10ec9e.chunk.css.map",
     "static/js/2.067cb17c.chunk.js.LICENSE.txt": "/breastApp/static/js/2.067cb17c.chunk.js.LICENSE.txt",
     "static/media/IMG1.jpg": "/breastApp/static/media/IMG1.895e1036.jpg",
     "static/media/IMG4.jpg": "/breastApp/static/media/IMG4.3da96639.jpg",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.cfc6b875.js",
     "static/css/2.a10d244a.chunk.css",
     "static/js/2.067cb17c.chunk.js",
-    "static/css/main.6389616b.chunk.css",
+    "static/css/main.5a10ec9e.chunk.css",
     "static/js/main.b9fd6417.chunk.js"
   ]
 }

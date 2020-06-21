@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1488f7468ad937d275b16c2581c995cc",
+    "revision": "8872f9d03a5f4690ae2de6026b133a46",
     "url": "/breastApp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/breastApp/static/css/2.a10d244a.chunk.css"
   },
   {
-    "revision": "0dfba634225f1c95867f",
-    "url": "/breastApp/static/css/main.6389616b.chunk.css"
+    "revision": "67d13991392dd69812cf",
+    "url": "/breastApp/static/css/main.5a10ec9e.chunk.css"
   },
   {
     "revision": "b918257a059cc0b8c240",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/breastApp/static/js/2.067cb17c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0dfba634225f1c95867f",
+    "revision": "67d13991392dd69812cf",
     "url": "/breastApp/static/js/main.b9fd6417.chunk.js"
   },
   {
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d0ea3ce1f6c0a78d4ccab0cc97d8256",
     "url": "/breastApp/static/media/IMG6.1d0ea3ce.jpg"
-  },
-  {
-    "revision": "8089d3547fd9745b8a4c0cec2580d550",
-    "url": "/breastApp/static/media/KeterYG-BoldOblique.8089d354.sfd"
   },
   {
     "revision": "fe6d4252e2420650a5de02413b15831d",
