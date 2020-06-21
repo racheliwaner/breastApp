@@ -95,7 +95,7 @@ class App extends Component{
                      justifyContent: "center", alignItems: "center", fontFamily: "Shuneet"};
 
     return (
-      <div className="App" style={{backgroundImage: `url(${Background})`,width: "100%" }}>   
+      <div className="App" style={{backgroundImage: `url(${Background})`,width: "100%", background-repeat: repeat; }}>   
       <header>
         
      </header>
