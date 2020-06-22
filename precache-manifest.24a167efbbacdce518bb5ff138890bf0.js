@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25eb02afac1429afa057ad3c7375caba",
+    "revision": "b07cb08ee2f9492103365ab5bedb6683",
     "url": "/breastApp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/breastApp/static/css/2.c0d22048.chunk.css"
   },
   {
-    "revision": "cce56ed8bff02b3b8867",
+    "revision": "1dc3be0a6793c1cb808c",
     "url": "/breastApp/static/css/main.5a10ec9e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/breastApp/static/js/2.067cb17c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cce56ed8bff02b3b8867",
-    "url": "/breastApp/static/js/main.e33d97d3.chunk.js"
+    "revision": "1dc3be0a6793c1cb808c",
+    "url": "/breastApp/static/js/main.deb8fc84.chunk.js"
   },
   {
     "revision": "7455de84471b66d7199f",
