@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f94238b799f368fc0448f602fc21a6f",
+    "revision": "25eb02afac1429afa057ad3c7375caba",
     "url": "/breastApp/index.html"
   },
   {
-    "revision": "5237cf271ab7b7ac507d",
+    "revision": "e52981057417448e59c8",
     "url": "/breastApp/static/css/2.c0d22048.chunk.css"
   },
   {
-    "revision": "04d609aa2065a43c5c41",
-    "url": "/breastApp/static/css/main.92a75e5f.chunk.css"
+    "revision": "cce56ed8bff02b3b8867",
+    "url": "/breastApp/static/css/main.5a10ec9e.chunk.css"
   },
   {
-    "revision": "5237cf271ab7b7ac507d",
-    "url": "/breastApp/static/js/2.11616342.chunk.js"
+    "revision": "e52981057417448e59c8",
+    "url": "/breastApp/static/js/2.067cb17c.chunk.js"
   },
   {
     "revision": "a73511fdd0e79fea52c5f42ad1574633",
-    "url": "/breastApp/static/js/2.11616342.chunk.js.LICENSE.txt"
+    "url": "/breastApp/static/js/2.067cb17c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04d609aa2065a43c5c41",
-    "url": "/breastApp/static/js/main.fd4759b8.chunk.js"
+    "revision": "cce56ed8bff02b3b8867",
+    "url": "/breastApp/static/js/main.e33d97d3.chunk.js"
   },
   {
     "revision": "7455de84471b66d7199f",
